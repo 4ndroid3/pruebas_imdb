@@ -14,7 +14,7 @@ print('Año: ' + str(the_matrix['year']))
 print('Duracion: ' + str(the_matrix['runtime'][0]))
 print('Puntaje: ' + str(the_matrix['rating']))
 print('Generos: ' + ", ".join(the_matrix['genres']))
-print('Img: ' + the_matrix['cover url'])
+print('Img: ' + the_matrix['cover url']) #'full-size cover url'
 print(the_matrix['director']) # tipo lista
 print(the_matrix['cast'][0:4]) # tipo lista
 
